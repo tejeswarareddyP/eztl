@@ -1,0 +1,1 @@
+print("Leap year" if int(input("enter year"))%4==0 else "non leap")

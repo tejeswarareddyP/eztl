@@ -1,0 +1,11 @@
+#p to print armstrong nos in given range#
+r=0
+def arm(n,m):
+    for n in range(n,m):
+     for i in range(n,m):
+        while i>0:
+            d=i%10
+            r=r+d**3
+            i//=10
+        print(r)
+return            

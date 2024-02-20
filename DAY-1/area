@@ -1,0 +1,4 @@
+r=int(input("enter the radius"))
+b=int(input("enter the breadth"))
+l=int(input("enter the lenght"))
+print("area of circle",2*pi*r**2,"/narea of rectangle",l*b)
